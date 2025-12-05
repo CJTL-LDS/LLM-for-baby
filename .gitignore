@@ -1,9 +1,15 @@
-.idea
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+
+# PEP 582
+__pypackages__/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
 .vscode
-.pycharm
-
-.cache
-.hfd
-
-*.safetensors
-
+.idea
